@@ -22,6 +22,7 @@ jobs:
         uses: renovatebot/github-action@v40.1.12
         env:
           RENOVATE_AUTODISCOVER: true
+          RENOVATE_ONBOARDING: false
           RENOVATE_PLATFORM: "github"
           RENOVATE_PLATFORM_COMMIT: "true"
         with:
